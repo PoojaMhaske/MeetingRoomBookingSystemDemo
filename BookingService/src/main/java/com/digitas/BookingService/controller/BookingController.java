@@ -46,7 +46,7 @@ public class BookingController {
     }
 
 
-    //update booking by id
+ /*   //update booking by id
     @PutMapping("/update/{id}")
     public Booking updateBooking(@PathVariable(value = "id") Long BookingId,
                                  @Valid @RequestBody Booking bookingDetails) {
@@ -59,7 +59,7 @@ public class BookingController {
 
         Booking updatedBookig = bookingRepo.save(booking);
         return updatedBookig;
-    }
+    }*/
 
 
 }
